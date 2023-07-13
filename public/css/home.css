@@ -1,0 +1,176 @@
+/* header */
+.home__header--nav {
+    background-color: #ef4c27;
+    border-radius: 3px;
+    margin: 15px 0;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.home__header--nav-box1{
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+    /* background-color: rebeccapurple; */
+}
+.home__header--nav-box2 ul{
+    display: flex;
+    align-items: center;
+}
+.home__header--nav .home__header--nav-box1 i{
+    margin: 0 10px;
+    font-size: 22px;
+}
+.home__header--nav .home__header--nav-box1 img{
+    margin: 10px 0;
+    margin-left: 20px;
+}
+.home__header--nav .home__header--nav-box1 ul{
+    display: none;
+}
+.home__header--nav ul li{
+    /* text-align: center; */
+    padding: 5px 0;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.home__header--nav  ul li a{
+    color: white;
+}
+/* MAiN */
+.section__container--box{
+    background-color: white;
+    padding: 5px;
+}
+.section__container--box article img{
+    width: 100%;
+}
+.section__container--box-text h3{
+    margin: 10px 0;
+}
+.section__container--box-text p{
+    margin-bottom: 10px;
+}
+.section__container--box-text input{
+    margin: 10px 0;
+    background-color: #ef4c27;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+/* main > aside */
+.aside__container{
+    margin-top: 15px;
+}
+.aside__container--section h2{
+    background-color: white;
+    padding: 5px;
+}
+.aside__container--section-box{
+    margin: 10px 0;
+}
+
+.aside__container--section-box .section-box-article{
+    background-color: white;
+    margin-bottom: 2px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.aside__container--section-box .section-box-article a{
+    margin-left: 10px;
+    color: black;
+    font-weight: 600;
+    /* background-color: cyan; */
+}
+.aside__container--section-img{
+    margin-top: 10px;
+    padding: 0 5px;
+    background-color: white;
+}
+.aside__container--section-img img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+@media (min-width:481px) {
+    /* HEADER */
+    
+    .home__header--nav .home__header--nav-box1 img{
+        margin-left: 5px;
+        width: 80px;
+    }
+    /* MAIN */
+    .section__container--box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        /* width: 48%; */
+    }
+    .section__container--box article{
+        width: 48%;
+    }
+    /* MAIN > ASIDE */
+    .aside__container--section .aside__container--section-img{
+        display:  flex;
+        justify-content: space-between;
+        padding-top: 8px;
+    }
+    .aside__container--section .aside__container--section-img img{
+        width: 49%;
+    }
+}
+@media (min-width:769px){
+    /* HEADER */
+    .home__header--nav .home__header--nav-box1 i{
+        display: none;
+    }
+    .home__header--nav .home__header--nav-box1 img{
+        margin-left: 5px;
+        width: 80px;
+    
+    }
+    .home__header--nav .home__header--nav-box1{
+        display: flex;
+        gap: 40px;
+    }
+    .home__header--nav .home__header--nav-box1 ul{
+        display: flex;
+    }
+    /* MAIN */
+    .main__section--container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .main__section--container .section__container--box{
+        width: 72%;
+    }
+    .main__section--container .aside__container{
+        width: 25%;
+    }
+    .section__container--box-text h3{
+        font-size: 1rem;
+    }
+    .section__container--box-text p{
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    /* MAIN > ASIDE */
+    .aside__container--section .aside__container--section-img{
+        display:  block;
+        justify-content: space-between;
+        padding-top: 8px;
+    }
+    .aside__container--section .aside__container--section-img img{
+        width: 100%;
+    }
+    .aside__container--section-box .section-box-article a{
+        font-weight: 400;
+        font-size: 0.8rem;
+        
+    }
+}
