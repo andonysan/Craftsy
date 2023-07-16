@@ -150,6 +150,7 @@
         width: 72%;
     }
     .main__section--container .aside__container{
+        margin-top: 0;
         width: 25%;
     }
     .section__container--box-text h3{
